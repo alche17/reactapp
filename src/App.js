@@ -23,9 +23,13 @@ class App extends Component {
 				<HashRouter>
 					<div>
 						<div>
-							<Navigation width='8%'/>
+							<Navigation height='8%'/>
 						</div>
+<<<<<<< HEAD
 						<div className="content">			
+=======
+						<div className="content" style={{height:'92%',left:0, right:0, bottom:0, position:'absolute', backgroundColor:'#DDDDDD'}}>
+>>>>>>> d353b0c... Moving from sidenav -> topnav
 							<Route path="/userprofile" component={UserProfile}/>		
 							<Route path="/dashboard" component={Dashboard}/>
 							<Route path="/responses" component={Responses}/>
